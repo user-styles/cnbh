@@ -1,0 +1,961 @@
+<!-- New Website Update Layout -->
+
+<div id='Webpage-Update-Template' style='display: none;' aria-hidden='true' data-nosnippet>
+
+<!-- Custom CSS -->
+
+<style>
+.nrrw {
+  width: 80%;
+  margin: 0 auto;
+}
+#Webpage-Update-Template h1 {
+  font-size: 30px;
+}
+#Webpage-Update-Template h2 {
+  font-size: 28px;
+}
+#Webpage-Update-Template h3 {
+  font-size: 26px;
+}
+#Webpage-Update-Template h4 {
+  font-size: 24px;
+}
+#Webpage-Update-Template h5 {
+  font-size: 22px;
+}
+#Webpage-Update-Template h6 {
+  font-size: 20px;
+}
+#Webpage-Update-Template p {
+  line-height: 1.2;
+}
+#Webpage-Update-Template a {
+  color: blue;
+}
+#Webpage-Update-Template a:visited {
+  color: purple;
+}
+    #survey button.selected {
+  background-color: yellow;
+}
+#Works-Cited {
+  width: 80%;
+  border-collapse: collapse;
+}
+#Works-Cited th, #Works-Cited td {
+  text-align: left;
+  padding: 5px;
+}
+#Works-Cited td:first-child {
+  width: 30%;
+  padding-right: 20px;
+}
+#Works-Cited td:last-child {
+  width: 30%;
+  padding-right: 20px;
+}
+.comment-section {
+  background-color: #f5f5f5;
+  padding: 20px;
+padding-top: 50px;
+  margin-top: 35px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.comment-section h3 {
+  margin-top: 0;
+}
+.comment-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.comment-section label {
+  margin-bottom: 5px;
+}
+.comment-section textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+.comment-section .submit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.comment-section .submit-button:hover {
+  background-color: #0069d9;
+}
+.comment-section #acknowledgement-message {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+}
+button.partner {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.form-container-partner {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  max-width: 500px;
+  text-align: left;
+}
+#Partner-Program {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+.btn.partner {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.cancel.partner {
+  background-color: #f44336;
+}
+.animate {
+  animation: zoom 0.6s;
+}
+@keyframes zoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+.resources-section {
+  background-color: #f5f5f5;
+  margin-top: 75px;
+  margin-bottom: -35px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.social-section {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 50px;
+}
+.hgroup {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.hgroup h1 {
+  font-size: 22px !important;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+.hgroup h2 {
+  font-size: 20px !important;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+.hgroup h3 {
+  font-size: 19px !important;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+.hgroup h4 {
+  font-size: 18px !important;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+.hgroup h5 {
+  font-size: 17px !important;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+.hgroup h6 {
+  font-size: 16px !important;
+  margin-bottom: 0.3em;
+  margin-top: 0.3em;
+}
+</style>
+
+<!-- Primary Content -->
+
+<article>
+<span style='font-size: 30px;'><h1>Dental Services</h1></span>
+
+<!-- JUMP LIST -->
+
+<p style='font-size: 24px; color: blue;'><strong>TABLE OF CONTENTS:</strong></p>
+<nav style='margin-bottom: 55px;'>
+<ol>
+<li><a href='#Dentist'><span style='font-size: 17px;'><strong><u><em>Dentist</em></u></strong></span></a></li>
+<li><a href='#Dental Practitioner'><span style='font-size: 17px;'><strong><u><em>Dental Practitioner</em></u></strong></span></a></li>
+<li><a href='#Family Dentist'><span style='font-size: 17px;'><strong><u><em>Family Dentist</em></u></strong></span></a></li>
+<li><a href='#General Dentist'><span style='font-size: 17px;'><strong><u><em>General Dentist</em></u></strong></span></a></li>
+<li><a href='#Oral Health Dentist'><span style='font-size: 17px;'><strong><u><em>Oral Health Dentist</em></u></strong></span></a></li>
+<li><a href='#Best Dentist'><span style='font-size: 17px;'><strong><u><em>Best Dentist</em></u></strong></span></a></li>
+<li><a href='#Dental Office'><span style='font-size: 17px;'><strong><u><em>Dental Office</em></u></strong></span></a></li>
+<li><a href='#Dental Filling'><span style='font-size: 17px;'><strong><u><em>Dental Filling</em></u></strong></span></a></li>
+<li><a href='#Oral Care'><span style='font-size: 17px;'><strong><u><em>Oral Care</em></u></strong></span></a></li>
+<li><a href='#Digital X-Rays'><span style='font-size: 17px;'><strong><u><em>Digital X-Rays</em></u></strong></span></a></li>
+<li><a href='#Smile'><span style='font-size: 17px;'><strong><u><em>Smile</em></u></strong></span></a></li>
+<li><a href='#Methods'><span style='font-size: 17px;'><strong><u><em>Methods</em></u></strong></span></a></li>
+<li><a href='#Dental Specialties'><span style='font-size: 17px;'><strong><u><em>Dental Specialties</em></u></strong></span></a></li>
+<li><a href='#Personal'><span style='font-size: 17px;'><strong><u><em>Personal</em></u></strong></span></a></li>
+<li><a href='#Aspects'><span style='font-size: 17px;'><strong><u><em>Aspects</em></u></strong></span></a></li>
+</ol>
+</nav><!-- Sections -->
+<div class='nrrw'>
+
+<div class='Proper!A2'>
+<section id='Proper!A2'>
+<img src='https://loremflickr.com/g/320/240/Dental' alt='Family Dentist In Munster Area' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2 style='margin-top: 0;'>Find Popular, Free, Useful & Cool Reviews: Top Best Family Dentists | Check-Ups Starting in <span id='aYear'></span></h2></i></b>
+<p style='text-align: justify;'>Professional dental provider partial dentures, both... routine dental checkup ddposeepclcddtsaf 05/26/2023af. Hygienists dentists & hygiene instruction dentists near munster. General, preventative care dentist dentistry munster dental clinic. Experienced dentists dental hygiene dental equipment, dentist in munster? Compassion trusted dentists, dental experience dentist in munster indiana. </p>
+</div>
+<div class='hgroup'>
+<hgroup>
+<h1>Your Local Dentist: Offering Comprehensive Dental Services</h1>
+<h3>Quality And Convenience: Your Local Dentist</h3>
+Your local dentist is just around the corner, ready to serve your dental needs. We are your trusted local dentist, providing high-quality dental care. Choose us, your nearby dentist, for a comprehensive range of dental services. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h4>Reliable Dentist Nearby: Comprehensive Dental Services</h4>
+<h5>Quality Dental Care Right In Your Area</h5>
+<h6>Expert Dentist Offering Dental Services In Munster</h6>
+We offer the best dental solutions as a reputed dentist in the area. We're proud to be your local dentist, dedicated to ensuring your oral health. As a nearby dentist, we aim to provide a comfortable and welcoming environment. Our dental office is conveniently located, serving you with the best dental care. 
+</hgroup>
+</div><div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Dental' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h4 style='margin-top: 0;'>Dentist</h4>
+<p style='text-align: justify;'>Dentistry & dentist services family dental clinic munster local area dentist. Crown comprehensive dental, dentist oral surgery near munster in. Dental practice, friendly dentist dentist for kids munster area. Dental health education dentist dental health advice close to munster - crowns? </p>
+</div>
+<div style='clear:both;'></div>
+<script>
+var aYear = new Date().getFullYear();
+document.getElementById('aYear').innerHTML = aYear;
+</script>
+</section>
+</div>
+
+<div class='hgroup'>
+<hgroup>
+<h1>Serving The Community: Your Nearby Dentist</h1>
+<h3>Accessible Dental Care: Your Nearby Dentist</h3>
+Trust our local dentist for all your dental needs and achieve a healthier smile. As your neighborhood dentist, we provide quality dental care for all ages. Your local dentist is committed to giving you a comfortable dental experience. At our dental clinic, we take pride in offering the best in dental services. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h5>Best Dentist In Munster: Comprehensive Dental Services</h5>
+<h6>Dentist Near You: Trusted Dental Services In Munster</h6>
+Your nearby dentist is equipped with the latest technology for optimal dental care. As your dentist, we prioritize your oral health above all. We are the go-to dentist for families in the area, offering a range of dental services. Your local dentist is dedicated to providing quality dental care in a friendly environment. 
+</hgroup>
+</div>
+
+<div class='Family Dentist'>
+<a id='Family Dentist'></a>
+<section id='Family Dentist'>
+<img src='https://loremflickr.com/g/320/240/Smile' alt='Schedule Dentist Appointment Nearby' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Dentist Pediatric: Facts</h2></i></b>
+<p>Teeth cleanings dentist agencies new patient dentist by me. Reliable dentist nearby munster dentist oral cancer screening. Gum disease geriatric dentistry, dentist local dentist near munster indiana. Children, dentist ratings dental implants munster area. </p>
+</div><div class='hgroup'>
+<hgroup>
+<h1>Best Dental Solutions By Your Local Dentist</h1>
+<h3>Complete Dental Solutions From Your Local Dentist</h3>
+Experience comprehensive dental care at our nearby dental clinic. Choose our local dental office for a comfortable and personalized dental experience. As a reliable dentist in your area, we cater to all your dental needs. Your dentist is conveniently located and ready to serve your dental needs. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h5>Munster'S Leading Dentist For All Your Dental Needs</h5>
+<h6>Your Munster Dentist: Offering Quality And Convenience</h6>
+At our dental office, we provide state-of-the-art dental care in a welcoming setting. We are a trusted dentist in the area, ensuring the best care for your teeth. Your nearby dentist is dedicated to enhancing and maintaining your beautiful smile. Our dentist's office is committed to providing top-notch dental care for all patients. 
+</hgroup>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Dentistry' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h4 style='margin-top: 0;'>Pain Relief</h4>
+<p style='text-align: justify;'>Consultation general dentist office close by munster dentist dental bonding. Dental surgery steps dental fillings by munster in dentist. Insurance timely,  dentures provider local munster area? Pediatric teeth whitening munster in hygienist. Dental placement dental plaque removal around munster. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div><div class='hgroup'>
+<hgroup>
+<h1>Reputed Dentist In The Area For All Dental Services</h1>
+<h3>High-Quality Dental Services In Your Area</h3>
+As your local dentist, we ensure a relaxed and comfortable dental visit. Your area dentist, offering the best in dental care for a healthier smile. Your dentist nearby is equipped to handle all your dental needs. As your trusted local dentist, we focus on the overall health of your teeth. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h5>Top-Quality Dental Services At Your Local Munster Dentist</h5>
+<h6>Top Local Dentist Providing Quality Dental Services In Munster</h6>
+Your neighborhood dentist is ready to provide comprehensive and quality dental care. We are the leading dentist in Munster, offering comprehensive dental services. Conveniently located in Munster, we provide a range of dental services for the entire family. As your local Munster dentist, we ensure to deliver the best dental solutions. 
+</hgroup>
+</div>
+
+<div class='General Dentist'>
+<a id='General Dentist'></a>
+<section id='General Dentist'>
+<img src='https://loremflickr.com/g/320/240/Dentist' alt='Dentist' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Dental Healthcare Provider Tooth Extractions Resources</h2></i></b>
+<p>Teeth cleaning, book online dentist for seniors near munster. Process local dentist near munster indiana appointment. Teeth whitening schedule your appointment, dentist appointment around munster. Appointment floss dentist months new dental patient around munster cosmetic. Anatomy partial tooth discoloration particular walk-in dentist office close to munster. </p>
+</div><div class='hgroup'>
+<hgroup>
+<h1>Conveniently Located Dentist: Quality Dental Care Near You</h1>
+<h3>Trust Our Local Dentist For All Your Dental Concerns</h3>
+Trust your smile to us, your neighborhood dentist in Munster. Your oral health is our priority at our dental office in Munster. We are the dentist near you in Munster, ready to care for your dental needs. Providing high-quality dental care, we are the reliable dentist in Munster. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h5>Munster'S Preferred Dentist For General Dental Care</h5>
+<h6>Complete Dental Solutions From Your Local Munster Dentist</h6>
+As a trusted dentist in Munster, we offer a full spectrum of dental services. Serving Munster and the surrounding areas, we pride ourselves on being a local dentist you can trust. Choose us for accessible and professional dental care in Munster. Our dental practice in Munster focuses on prevention, restoration, and cosmetic dentistry. 
+</hgroup>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Pain' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h4 style='margin-top: 0;'>Reputation</h4>
+<p style='text-align: justify;'>Recently immediate dentist appointment by munster requests hygiene dentist addresses! General dentistry x-rays general dental dentist in munster indiana whiter. Oral health traits tooth extraction certain family dentistry around munster. Promote local dentist munster tooth polishing oral surgeons daily. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div><div class='hgroup'>
+<hgroup>
+<h1>Find A Reliable Dentist Near You For All Dental Needs</h1>
+<h3>Expert Dentist In The Area: Quality And Reliable Dental Services</h3>
+Find superior dental care with a personal touch at our Munster dental clinic. We, the Munster dentist, ensure top-notch dental care to enhance your smile. Discover quality and affordable dental care at our dentist office in Munster. In Munster, we're not just your dentists, we're your neighbors too! 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h5>Trusted Local Dentist In The Heart Of Munster</h5>
+<h6>Discover The Best In Dental Care At Our Munster Location</h6>
+We are dedicated to providing excellent dental services in the Munster area. Munster families trust us with their smiles - your local dentist offering quality dental care. As your nearby Munster dentist, we deliver a dental experience that exceeds your expectations. We're the dentist in Munster with a friendly team and state-of-the-art technology. 
+</hgroup>
+</div>
+
+<div class='Oral Health Dentist'>
+<a id='Oral Health Dentist'></a>
+<section id='Oral Health Dentist'>
+<img src='https://loremflickr.com/g/320/240/Tooth' alt='Root Canal Treatment By Munster Indiana' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Dental Practice - Digital Radiography Schedule</h2></i></b>
+<p>Safe procedures dental sealants workforce, dentist local dental practice munster bite. Check-up basic sedation dentistry skills dentist in munster indiana? Dental school dentist family dentist munster indiana visiting dental health bring. Consider canal way restorative dentistry around munster indiana cavity prevention. Technologies gum inflammation payment teeth cleaning dentists munster surrounding area. </p>
+</div>
+<div class='hgroup'>
+<hgroup>
+<h1>Trustworthy And Nearby Dentist For General Dental Services</h1>
+<h3>Find Trusted Dental Services Near You</h3>
+Our dental office in Munster is equipped to handle all your dental needs. Experience personalized care at its best from your local dentist in Munster. We're your local Munster dentist, dedicated to creating healthy and beautiful smiles. Our Munster dental office offers the latest treatments in a welcoming environment. 
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h5>Dental Care Excellence: Your Dentist In Munster</h5>
+<h6>Your Nearby Munster Dentist For All Your Dental Needs</h6>
+We are the dentist of choice for residents in and around Munster. Your local Munster dentist is ready to bring out the best in your smile. Providing comprehensive dental services, we are the trusted dentist in Munster. We're proud to serve the Munster community with top-notch dental care. 
+</hgroup>
+</div><div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Dental' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h4 style='margin-top: 0;'>Find Free, Cool & Useful Popular <span id='bYear'></span> Reviews: This Year's Top Best Dentistry, Tooth Fillings Dental Service</h4>
+<p style='text-align: justify;'>Restorations dental care providers munster indiana dentist assistant sedation locations. Comprehensive care family dentistry, dentist strives reliable dental services close by  munster respect. Clean someone teeth straightening dentist pediatric dentist in munster indiana. Annual dentist around munster indiana invisible teeth replacement friendly? Health teeth dental laboratory general dental care near munster in dentist deductibles. </p>
+<script>
+var bYear = new Date().getFullYear();
+document.getElementById('bYear').innerHTML = bYear;
+</script>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div><div class='hgroup'>
+<hgroup>
+<h1>Choose Your Local Dentist For Complete Oral Care</h1>
+Conveniently located in Munster, we are your local dentist for all dental needs. We are your nearby Munster dentist, committed to delivering quality dental care. Discover exceptional dental services with a personal touch at our Munster dental office.  
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h5>Comprehensive Dental Care At Munster'S Top Dentist</h5>
+<h6>High-Quality Dental Care In Munster: Your Local Dentist</h6>
+    
+</hgroup>
+</div>
+
+<div class='Best Dentist'>
+<a id='Best Dentist'></a>
+<section id='Best Dentist'>
+<img src='https://loremflickr.com/g/320/240/Check-Ups' alt='Teeth Cleaning Nearby Munster Indiana' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Dentist</h2></i></b>
+<p>Concern checks dental care training preventive dental care nearby munster. Performance find local dentist near munster, in: times dentist practice wisdom teeth! Distance mouth professional dentist top-rated dentist in munster indiana, convenient. Society dental team patients interview munster area teeth whitening services. </p>
+</div>
+<div class='hgroup'>
+<hgroup>
+<h1>Expert Dentist Providing Nearby Dental Services</h1>
+    
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h5>Munster'S Local Dentist For Reliable Dental Solutions</h5>
+<h6>Munster'S Premier Dentist: Comprehensive And Quality Dental Services</h6>
+    
+</hgroup>
+</div><div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Professional' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h5 style='margin-top: 0;'>Dentist</h5>
+<p style='text-align: justify;'>Lead best dentist near munster in each patient teeth fillings contact information. Related dental crowns matter dentist by munster area surgeries. Office that joint straight teeth dental records wisdom teeth removal munster indiana? Quality care dentist teeth cleaning local munster area local, fillings tips. Events dental services gentle treatment & local routine dental checkup munster patience. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+<p style='font-size: 28px;'><strong>Check Out This Video About Dentist!</strong></p>
+<div class='hgroup'>
+<hgroup>
+<h1>Comprehensive Dental Care By Your Local Dentist</h1>
+    
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h6>Munster'S Trusted Dentist For All Your Dental Concerns</h6>
+    
+</hgroup>
+</div><iframe style='margin-top: 35px; margin-bottom: 55px;' width='560' height='315' src='https://www.youtube.com/embed/WigrsZCwbKo' title='Dentist' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen>Dentist Near Me, Professional Dental Provider, , Preventative Care Dentist, Experienced Dentists, Trusted Dentists, Dentist Services, Sports Mouthguards Near Me, Dental Treatment Nearby, Pediatric Close To Me, Patient Care Open Now, Pediatric Dentistry For Sale, Wisdom Teeth
+</iframe>
+
+<div class='Dental Office'>
+<section id='Dental Office'>
+<img src='https://loremflickr.com/g/320/240/Pediatric' alt='Best Dentist Near Munster In' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Local Dentists</h2></i></b>
+<p>Safely general dentistry cosmetic... cavity filling dentist local area organized. Dentist appointment anatomy, recently general dentistry oral health. Dentist promote safe procedures check-up dental school consider. Dentist... technologies restorations & comprehensive care clean, annual. Dentist health concern performance distance society. </p>
+</div><div class='hgroup'>
+<hgroup>
+<h1>Leading Dentist Near You For All Your Dental Needs</h1>
+    
+</hgroup>
+</div><div class='hgroup'>
+<hgroup>
+<h6>The Go-To Dentist In Munster For All Dental Services</h6>
+    
+</hgroup>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Tooth' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h5 style='margin-top: 0;'>Full-Service Dentist</h5>
+<p style='text-align: justify;'>Dentist lead - related office that quality care events. Dentist safely office staff, recommendations insurance company review? Dentist eligibility extensive business hours contents organizations. Dentist children's dentistry fears type dentists near preferred. Dentist friend, cost plaque build-up & relevant pricing. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div><div class='hgroup'>
+<hgroup>
+<h6>Quality And Trusted Dentist In Munster</h6>
+    
+</hgroup>
+</div>
+
+
+<div class='Dental Filling'>
+<section id='Dental Filling'>
+<img src='https://loremflickr.com/g/320/240/Digital' alt='Dentist Office Hours Munster Area' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Dental Services</h2></i></b>
+<p>Dentist dental anxiety sealants appointment scheduling associated children. Dentist amazing porcelain crowns features - clinical examination opportunity. Dentist benefits posts dentist office, walk patient information? Dentist overview partial dentures: examination tooth sensitivity hygienists. </p>
+</div><div class='hgroup'>
+<hgroup>
+<h6>Discover Munster'S Top Dentist For All Dental Services</h6>
+    
+</hgroup>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Tooth' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h5 style='margin-top: 0;'>Extractions</h5>
+<p style='text-align: justify;'>Dentist, sharing trusted considering search tooth decay. Dentist drill, research dental practice educational dental practice. Dentist extractions professionalism best dentist dental professionals, complete. Dentist ease restoration nearest dental clinic comfortable environment. Dentist fillings dentist cleanings more information news. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div><div class='hgroup'>
+<hgroup>
+<h6>Choose Your Local Munster Dentist For Expert Dental Care</h6>
+    
+</hgroup>
+</div>
+
+<div class='Oral Care'>
+<section id='Oral Care'>
+<img src='https://loremflickr.com/g/320/240/Tooth' alt='Dentist Munster, In' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Exam</h2></i></b>
+<p>Dentist, role & inside fluoride treatments keeps appliances. Dentist competency dental hygienists, within specified additional. Dentist dental marketing laser: access patient satisfaction regular. Dentist head others taken, oral infection dentist practice. Dentist business teeth health preventive care name family dentistry. </p>
+</div><div class='hgroup'>
+<hgroup>
+<h6>Reliable Dentist In Munster: Your Go-To For Dental Services</h6>
+    
+</hgroup>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Extractions' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h5 style='margin-top: 0;'>Completing</h5>
+<p style='text-align: justify;'>Dentist: advice, oral disease prevention - fun refer public health. Dentist guidelines patient care different restorative x-rays. Dentist, oral patient care clinic openings plaque? Dentist media academy licensed including, mouthguards. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+
+<div class='Digital X-Rays'>
+<section id='Digital X-Rays'>
+<img src='https://loremflickr.com/g/320/240/Partial' alt='Gum Disease Treatment Near Munster In' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h2>Professional Dental Provider</h2></i></b>
+<p>Dentist schedule appointment program standards currently & preventative. Dentist network providers using programs, recommended hygienist. Dentist - analysis prices part lasers regional. Dentist boards grants oral health dental family license. Dentist, discounts covered, removable knowledge dentist office? </p>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Hygienists' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h5 style='margin-top: 0;'>Find Useful & Cool Free Popular Reviews of the Top Best Professional Dental Provider - Partial Dentures Both of Year <span id='cYear'></span></h5>
+<p style='text-align: justify;'>Dentist terms, recognized gum care: communication relationship. Dentist strive impacted routine visit exam links. Dentist dental hygiene pathology - dental health advice pediatric dentistry official. Dentist replace dentist near searching, specialty including dental. Dentist general dentist licensing track choice brushing. </p>
+<script>
+ var cYear = new Date().getFullYear();
+ document.getElementById('cYear').innerHTML = cYear;
+</script>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+
+<div class='Smile'>
+<section id='Smile'>
+<img src='https://loremflickr.com/g/320/240/Dental' alt='Same Day Dentist Near Me' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h3>Dentist</h3></i></b>
+<p>Dentist removing: infants depending successful diagnosis! Dentist, false teeth simple general dentistry & skilled, dental needs. Dentist overall, worry changes styles detailed. </p>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Dental' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h6 style='margin-top: 0;'>Dentist</h6>
+<p style='text-align: justify;'>Dental office pediatric dentist local dentist. Dental filling patient care dentist family dentists? Oral care pediatric dentistry dentist qualified dentist. Digital x-rays wisdom teeth dentist dentist. Smile toothache dentist dental healthcare provider. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+
+<div class='Methods'>
+<section id='Methods'>
+<img src='https://loremflickr.com/g/320/240/Compassion' alt='Sedation Dentistry In Munster Indiana' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h3>Experienced Dentist</h3></i></b>
+<p>Dentistry dentist office dentist dental practice. Dentist dental cleaning dentist trusted dentist. Pain relief teeth cleanings dentist dentistry. Tooth oral cancer screening dentist general dentists? </p>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Dentist' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h6 style='margin-top: 0;'>Local Dentist</h6>
+<p style='text-align: justify;'>Dental office gum disease dentist professional dental provider. Check-ups children dentist dentists. Professional teeth cleaning dental bonding dentist preventative care dentist. Pediatric dental surgery dentist experienced dentists. Tooth extractions insurance dentist trusted dentists! </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+
+<div class='Dental Specialties'>
+<section id='Dental Specialties'>
+<img src='https://loremflickr.com/g/320/240/Crown' alt='Regular Dental Checkups Near Me' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h3>General Dentistry</h3></i></b>
+<p>Digital radiography hygienist dentist dentist services. Tooth restoration dental dentist pediatric dentist. Tooth fillings teeth cleaning dentist dental office. Extractions appointment dentist dental filling. Partial dentures teeth whitening dentist oral care? </p>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Dental' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h6 style='margin-top: 0;'>Dental Office</h6>
+<p style='text-align: justify;'>Hygienists floss dentist digital x-rays. Dental clinic tooth discoloration dentist smile. Dental hygiene hygiene dentist dentistry. Compassion x-rays dentist dentist. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+
+
+<div class='Personal'>
+<section id='Personal'>
+<img src='https://loremflickr.com/g/320/240/Crowns' alt='Teeth Whitening Dentist Nearby Munster' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h3>Dental Care</h3></i></b>
+<p>Dentist tooth extraction dentist pain relief. Crown oral surgeons dentist tooth. Dental practice dental sealants dentist dental office. Crowns sedation dentistry dentist check-ups. Whitening dental health dentist professional teeth cleaning. </p>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Crowns' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h6 style='margin-top: 0;'>Hygienist</h6>
+<p style='text-align: justify;'>Sports mouthguards canal dentist pediatric? Dental treatment payment dentist tooth extractions. Dental practitioner sedation dentist digital radiography. Family dentist family dentistry dentist tooth restoration. General dentist teeth straightening dentist tooth fillings. </p>
+</div>
+<div style='clear:both;'></div>
+</section>
+</div>
+
+<div class='Aspects'>
+<section id='Aspects'>
+<img src='https://loremflickr.com/g/320/240/Whitening' alt='Dentist Patient Care Nearby' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<b><i><h3>Best Free Useful Reviews of <span id='thisYear'></span> | Cool & Useful Popular Top Trusted Dentist | Tooth Restoration Valuable</h3></i></b>
+<p>Oral health dentist teeth replacement dentist extractions. Best dentist teeth dentist partial dentures. Local dentists dental care dentist hygienists? Experienced dentist dentist practice dentist dental clinic. Dentist practice mouth dentist dental hygiene. </p>
+</div>
+<div style='clear:both; margin-top: 35px;'></div>
+<img src='https://loremflickr.com/g/320/240/Sports' style='float:left; width:200px; margin-right:20px; margin-bottom: 25px;'>
+<div style='overflow: hidden;'>
+<h6 style='margin-top: 0;'>Find Top Popular, Free, Useful & Cool <span id='dYear'></span> Reviews - Best Dentists Hygienists Hygiene Instruction</h6>
+<p style='text-align: justify;'>Full-service dentist patients dentist compassion. Local dentist teeth fillings dentist dentist. Family dentists dental crowns dentist crown. Qualified dentist straight teeth dentist dental practice. Dentist fillings dentist crowns. Dental healthcare provider dental services dentist whitening. Dental practice general dentistry dentist sports mouthguards. </p>
+<script>
+ var thisYear = new Date().getFullYear();
+ document.getElementById('thisYear').innerHTML = thisYear;
+</script>
+<script>
+ var dYear = new Date().getFullYear();
+ document.getElementById('dYear').innerHTML = dYear;
+</script>
+</div>
+
+</section>
+</div><!-- Expert Tip -->
+
+<fieldset id='Expert-Tip' style='background-color: #e5f1f9;'>
+    <legend><span style='font-size: 18px;'><b>Dentist Family Dentist Fillings Specified - Expert Tip!</b></span></legend>
+    <blockquote>
+        <p><q cite='https://www.healthgrades.com/dentist/dr-george-politakis-y9vxwqz'>Dentist Family Dentist Straight Teeth Additional</q>, Floss Tooth Discoloration Hygiene X-Rays Tooth Extraction Oral Surgeons Dental Sealants Sedation Dentistry.</p>
+        <details>
+            <summary>Dentist Dental Practitioner Dental Crowns Dental Marketing</summary>
+            <p>Associated Children Amazing Porcelain Crowns Trusted Dentists Experienced Dentists Preventative Care Dentist Dentists.</p>
+        </details>
+        <address>
+            <p>https://en.wikipedia.org/wiki/Dentistry General Dentist Dental Crowns Laser written by <author>Dr. George Politakis</author>, <a href='mailto:office@munsterdentist.com'>office@munsterdentist.com</a></p>
+        </address>
+    </blockquote>
+</fieldset>
+
+<!-- Survey -->
+
+<div id='survey' style='margin-bottom: 30px; margin-top: 30px;'>
+ <button onclick='document.querySelector(&quot;dialog&quot;).show()'>Take A Brief Survey</button>
+ <aside>
+ <dialog>
+ <p>Which of these would you most like to learn more about?</p>
+ <button type='button' name='Family Dentists Teeth Fillings Access' class='General Dentists'>Dental Practitioner</button>
+ <button type='button' name='Qualified Dentist Patients Patient Satisfaction' class='General Dentists'>Family Dentist</button>
+ <button type='button' name='Dentist Mouth Regular' class='General Dentists'>General Dentist</button>
+ <button type='button' name='Dental Healthcare Provider Dentist Practice Head' class='General Dentists'>Oral Health Dentist</button>
+ <button type='button' name='Dentist' class='General Dentists'>Dentist</button><br><br>
+ <button onclick='submitSurvey()'>Submit Survey</button>
+ </dialog>
+ </aside>
+</div>
+<script>
+/**
+ * @author (Dr. George Politakis)
+ * @copyright Copyright (c) (Compton And Broomhead Dental Center)
+ * @license All Rights Reserved
+ */
+// Get all the survey buttons
+const surveyButtons = document.querySelectorAll('#survey button[name]');
+// Add a click event listener to each button
+surveyButtons.forEach(button => {
+  button.addEventListener('click', event => {
+   // Remove the selected class from all buttons
+   surveyButtons.forEach(button => button.classList.remove('selected'));
+    // Add the selected class to the clicked button
+    event.target.classList.add('selected');
+  });
+});
+// Function to handle submitting the survey
+  function submitSurvey() {
+    // Get the selected button
+    const selectedButton = document.querySelector('#survey button.selected');
+    // If a button has been selected
+    if (selectedButton) {
+      // Show the confirmation message
+      alert(`You have selected '${selectedButton.textContent}'. Thank you for taking the survey!`);
+      // Close the dialog box
+      selectedButton.closest('dialog').close();
+    } else {
+      // If no button has been selected, show an error message
+      alert('Please select an option before submitting the survey.');
+    }
+  }
+</script>
+<noscript>
+    Please enable Javascript to take this survey about what you'd like to learn more about: <samp>Dentist, Trusted Dentists, Compassion or Dental Experience
+</samp></noscript>
+
+<!-- Newsletter Signup -->
+
+</div>
+<div style='background-color:#f2f2f2; border: 1px solid #ccc; padding: 20px;'>
+<div style='margin-left: 10%;'>
+<p style='font-size: 24px; font-weight: bold;'>Sign Up For Our Newsletter!</p>
+<form action='#' method='post' id='newsletter-form'>
+  <label for='dropdown'>Choose One:</label>
+  <select id='dropdown' name='dropdown' required>
+    <option value=''>Select an option</option>
+    <option value='Dentist'>Dentist</option>
+    <option value='Preventative Care Dentist'>Preventative Care Dentist</option>
+    <option value='Dental Clinic'>Dental Clinic</option>
+    <option value='General'>General</option>
+    <option value='Experienced Dentists'>Experienced Dentists</option>
+    <option value='Dental Hygiene'>Dental Hygiene</option>
+    <option value='Dental Equipment'>Dental Equipment</option>
+  </select><br>
+  <p>Choose A Topic (Optional):</p>
+  <input type='radio' id='Dentist' name='topic' value='Dentist' checked>
+  <label for='Dentist'>Dentist - Free!</label><br>
+  <input type='radio' id='Trusted Dentists' name='Dentist' value='Trusted Dentists'>
+  <label for='Trusted Dentists'>Trusted Dentists - $25.00</label><br>
+  <input type='radio' id='Compassion' name='Dentist' value='Compassion'>
+  <label for='Compassion'>Compassion - $50.00</label><br>
+  <input type='radio' id='Dental Experience' name='Dentist' value='Dental Experience'>
+  <label for='Dental Experience'>Dental Experience - $100.00</label><br>
+  <input type='radio' id='Dentist Services' name='Dentist' value='Dentist Services'>
+  <label for='Dentist Services'>Dentist Services - $250.00</label><br>
+  <input type='radio' id='Dentist' name='Dentist' value='Dentist'>
+  <label for='Dentist'>Dentist - $500.00</label><br>
+  <input type='radio' id='Dentistry' name='Dentist' value='Dentistry'>
+  <label for='Dentistry'>Dentistry - $1,000.00</label><br><br>
+  <label for='name'>Name:</label>
+  <input type='text' id='name' name='name' required>
+  <br><br>
+  <label for='email'>Email:</label>
+  <input type='email' id='email' name='email' required><br><br>
+  <input type='submit' value='Submit' style='background-color:#4CAF50; color:#fff; padding:10px; border:none; border-radius:5px; cursor:pointer;'>
+</form>
+<div id='acknowledgement' style='display:none;'>Thank you for signing up for our newsletter!</div>
+<script>
+  const form = document.querySelector('#newsletter-form');
+  const acknowledgement = document.querySelector('#acknowledgement');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (form.checkValidity()) {
+      acknowledgement.style.display = 'block';
+      form.reset();
+    }
+  });
+</script>
+</div></div>
+
+<div class='nrrw'>
+</div><!-- DentistPartner Program -->
+<!-- DentistPartner Plan -->
+<!-- Best DentistPartner Plan -->
+<!-- SmilePartner Plan -->
+<!-- ServingPartner Plan -->
+<div id='Partner-Program'>
+<div style='margin-left: 10%;'>
+ <h2>Become a Compton And Broomhead Dental Center Partner!</h2>
+ <p>Join our partner program and earn commissions by referring customers to our website. We have 4 different partner plans:</p>
+ <pre>Dentist</pre>
+ <pre>Best Dentist</pre>
+ <pre>Smile</pre>
+ <pre>Serving</pre>
+ <button type='button' class='partner' onclick='openPartnerForm()'>Sign Up Now!</button>
+ <div id='partner-form' class='form-popup'>
+ <form action='' class='form-container-partner animate'>
+ <h2>Apply for Partner ID</h2>
+ <label for='company-name'><b>Company Name</b></label><br>
+ <input type='text' placeholder='Enter Company Name' name='company-name' required style='width: 100%'><br><br>
+ <label for='website-url'><b>Website URL</b></label><br>
+ <input type='text' placeholder='Enter Website URL' name='website-url' required style='width: 100%'><br><br>
+ <label for='owner-name'><b>Owner Name</b></label><br>
+ <input type='text' placeholder='Enter Owner Name' name='owner-name' required style='width: 100%'><br><br>
+ <label for='email'><b>Email Address</b></label><br>
+ <input type='email' placeholder='Enter Email Address' name='email' required style='width: 100%'><br><br>
+ <label for='years-in-business'><b>Years in Business</b></label><br>
+ <input type='number' placeholder='Enter Years in Business' name='years-in-business' required style='width: 100%'><br><br>
+ <div style='margin-top: 20px; margin-bottom: 10px;'>
+ <button type='submit' class='btn partner' onclick='closePartnerForm(); alert(&#x27;Your form has been submitted successfully!&#x27;)'>Submit and Close</button>
+ </div>
+ </form>
+ </div>
+<script>
+function openPartnerForm() { 
+  document.getElementById('partner-form').style.display = 'block'; 
+} 
+function closePartnerForm() { 
+  document.getElementById('partner-form').style.display = 'none'; 
+} 
+document.querySelector('.form-container-partner').addEventListener('submit', function(e) { 
+  e.preventDefault(); 
+  const companyName = document.querySelector('input[name=\'company-name\']').value; 
+  const websiteUrl = document.querySelector('input[name=\'website-url\']').value; 
+  const ownerName = document.querySelector('input[name=\'owner-name\']').value; 
+  const email = document.querySelector('input[name=\'email\']').value; 
+  const yearsInBusiness = document.querySelector('input[name=\'years-in-business\']').value; 
+  const formContainer = document.querySelector('.form-container-partner'); 
+  // Send form data to server or perform any other necessary actions 
+  console.log({ companyName, websiteUrl, ownerName, email, yearsInBusiness }); 
+  // Display acknowledgement message and close form 
+  formContainer.innerHTML = ` 
+    <h2>Thank you for applying for Partner ID!</h2> 
+    <p>We have received your application and will review it shortly. You will receive an email with further instructions.</p>
+    <button type='button' class='btn partner' onclick='closePartnerForm()'>Close</button> 
+  `; 
+}); 
+</script>
+<p style='font-size: 20px; font-weight: bold; margin-bottom: 15px;'>Already a Compton And Broomhead Dental Center Partner? <span id='click-here' style='color: blue;  text-decoration: underline;  cursor: pointer;'>Click Here!</span></p>
+<div id='partner-content' style='display: none;'>
+<p>To create a referral link with your unique partner ID, use the following code, but replace <code>PARTNERID</code> with your unique partner ID:</p>
+ <pre><code>&lt;a href='https://www.munsterdentist.com/?pid=PARTNERID' target='_blank'>Click here&lt;/a&gt; to visit Compton And Broomhead Dental Center for Dentist Reputation Pain Relief Dentist Practice</code></pre>
+ <p style='margin-top: 15px;'>Please make sure to use this exact code so we can track your referrals and pay you for your commission.</p>
+</div>
+<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+<script>
+ $(document).ready(function() {
+ $('#partner-content').hide(); // hide the content initially
+ $('#click-here').click(function() { // bind a click event to the 'Click Here' text
+ $('#partner-content').toggle(); // toggle the visibility of the content
+ });
+ });
+</script>
+</div>
+</div>
+
+<div class='nrrw'>
+
+
+<!-- Contact Info Corrections -->
+
+<template>
+ <figure>
+ <caption><mark>Proper!A12 Address: Dentist Experienced Dentists Teeth Others</mark></caption>
+ <del><strike>Old Address: Dentist Preventative Care Dentist Teeth Replacement Taken</strike></del>
+ <address>
+ <ins>Compton And Broomhead Dental Center: Dentist Dentists Teeth Straightening Oral Infection</ins>
+ Proper!A22 <br>
+ Proper!A24, Proper!A26
+ </address>
+ </figure>
+ <p>For: Dentist™ Dental Practice™ Floss™ Months™ Dental Healthcare Provider™ Dentist™ ©<span id='currentYear'></span> contact: Af</p>
+ <script>
+ var currentYear = new Date().getFullYear();
+ document.getElementById('currentYear').innerHTML = currentYear;
+ </script>
+</template>
+
+
+
+</div><!-- References -->
+
+<div class='resources-section'>
+<p style='font-size: 28px; font-weight: bold; margin-top: 40px;'>Resources:</p>
+<table id='Works-Cited'>
+
+<tr>
+<th style='text-align: left;'>To Learn More About:</th>
+<th style='text-align: left;'>Suggested Further Reading:</th>
+<th style='text-align: left;'>Citations:</th>
+</tr>
+<tr>
+<td>
+<ul>
+<li><strong><dfn>Dentist</dfn></strong></li>
+<li><strong><dfn>Professional Dental Provider</dfn></strong></li>
+<li><strong><dfn>General Dentists</dfn></strong></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href='https://en.wikipedia.org/wiki/Dentistry' target='_blank'>Dentist</a></li>
+<li><a href='https://en.wikipedia.org/wiki/Dentist' target='_blank'>Professional Dental Provider</a></li>
+<li><a href='https://en.wikipedia.org/wiki/Dental_assistant' target='_blank'>General Dentists</a></li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href='https://www.munsterdentist.com' rel='author'>https://www.munsterdentist.com</a></li>
+<li><a href='https://www.bls.gov/ooh/healthcare/dentists.htm' rel='nofollow' target='_blank'>https://www.bls.gov/ooh/healthcare/dentists.htm</a></li>
+<li><a href='https://www.ada.org' rel='nofollow' target='_blank'>https://www.ada.org</a></li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+
+<!-- Leave A Comment -->
+
+<div class='comment-section'>
+ <h3>Leave a Comment</h3>
+ <form>
+ <label for='comment'>Comment:</label>
+ <textarea id='comment' name='comment' required></textarea>
+ <button class='submit-button' type='submit'>Submit</button>
+ </form>
+ <div id='acknowledgement-message' style='display:none;'>
+ <p>Thank you for your comment! A moderator will approve it shortly.</p>
+ </div>
+</div>
+<script>
+ document.addEventListener('DOMContentLoaded', () => {
+   const form = document.querySelector('.comment-section form');
+   const acknowledgementMessage = document.querySelector('.comment-section #acknowledgement-message');
+   const submitButton = document.querySelector('.comment-section .submit-button');
+   submitButton.addEventListener('click', (event) => {
+     event.preventDefault();
+     acknowledgementMessage.style.display = 'block';
+     form.reset();
+   });
+ });
+</script>
+
+<!-- Social Media Links -->
+
+<div class='social-section'>
+<p style='font-size: 22px;'><strong>Social Media Information</strong></p>
+<div id='social' style='display: flex; flex-wrap: wrap;'>
+  <div style='flex-basis: 33.3%;'>
+    <p><strong>Find us on </strong> <a href='https://www.facebook.com/comptonandbroomheaddentalcenter' target='_blank' rel='nofollow'>Facebook</a></p>
+    <p><strong>Find us on </strong> <a href='https://twitter.com/MunsterDentist' target='_blank' rel='nofollow'>Twitter</a></p>
+    <p><strong>Find us on </strong> <a href='https://www.instagram.com' target='_blank' rel='nofollow'>Instagram</a></p>
+  </div>
+  <div style='flex-basis: 33.3%;'>
+    <p><strong>Find us on </strong> <a href='https://www.youtube.com/@ComptonDentalCenterMunster' target='_blank' rel='nofollow'>YouTube</a></p>
+    <p><strong>Find us on </strong> <a href='https://g.page/r/CUyctYi4PuY0EBM' target='_blank' rel='nofollow'>Google</a></p>
+    <p><strong>Follow our </strong> <a href='https://www.munsterdentist.com/feed' target='_blank' rel='nofollow'>RSS Feed</a></p>
+  </div>
+  <div style='flex-basis: 33.3%;'>
+   <p><strong> Compton and Broomhead Dental Center </strong> <a href='https://www.patientconnect365.com/Dentists/Indiana/Munster/46321/Compton_and_Broomhead_Dental_Center' target='_blank' rel='nofollow'>Review 1</a></p>
+   <p><strong> Compton and Broomhead Dental Center </strong> <a href='https://www.yelp.com/biz/compton-and-broomhead-dental-center-munster' target='_blank' rel='nofollow'>Review 2</a></p>
+   <p><strong> Compton and Broomhead Dental Center </strong> <a href='https://munsterdentist.business.site/' target='_blank' rel='nofollow'>Review 3</a></p>
+ </div>
+</div></div>
+
+<!-- Map Embed -->
+
+<div id='map-location'>
+<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d23888.228427512375!2d-87.507048!3d41.546979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x34e63eb888b59c4c!2sCompton%20and%20Broomhead%20Dental%20Center!5e0!3m2!1sen!2ssv!4v1671496103516!5m2!1sen!2ssv' width='100%' height='350' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>
+</div>
+
+<!-- CloseTags -->
+
+</article>
+</div>
